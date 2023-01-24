@@ -98,7 +98,7 @@ header {
    font-size: 23px;
 }
 
-.header-right .toggle-button {
+.header-right .search-button {
    border: none;
    background-color: transparent;
 }
@@ -135,6 +135,7 @@ header .menu-dropdown-wrapper {
    opacity: 0;
    visibility: hidden;
    transition: all 0.4s ease;
+   z-index: 1;
 }
 
 header .menu-dropdown-content {
