@@ -1,0 +1,31 @@
+.single-content .product-gallery {
+   width: 50%;
+   padding-right: 15px;
+}
+
+.single-content .single-image-wrapper img {
+   width: 100%;
+}
+.single-content .single-image-wrapper img:hover {
+   cursor: zoom-in;
+}
+
+.single-content .gallery-thumbs {
+   display: flex;
+   column-gap: 10px;
+}
+
+.single-content .gallery-thumbs li {
+   cursor: pointer;
+   display: flex;
+}
+
+.single-content .gallery-thumbs li img {
+   border: 1px solid transparent;
+}
+.single-content .gallery-thumbs li img.active {
+   border-color: #000;
+}
+.single-content .gallery-thumbs li img:hover {
+   border-color: #000;
+}
