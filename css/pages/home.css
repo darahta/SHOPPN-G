@@ -6,7 +6,8 @@
 .section-title h2 {
    font-size: 32px;
    font-weight: 600;
-   margin-bottom: 4px;
+   margin-bottom: 2px;
+   line-height: 1;
 }
 
 /* ! categories start */
@@ -29,12 +30,11 @@
 .products {
    margin-bottom: 40px;
 }
-
+/* 
 .products .product-list {
    display: flex;
    flex-wrap: wrap;
-   gap: 20px;
-}
+} */
 /* ! products end */
 
 /*! compaigns start  */

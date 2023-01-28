@@ -119,3 +119,61 @@
    font-size: 14px;
    display: flex;
 }
+
+.glide {
+   position: relative;
+}
+
+.glide .glide__arrow {
+   position: absolute;
+   top: 50%;
+   background-color: transparent;
+}
+
+.glide .glide__arrow--left {
+   left: -30px;
+}
+
+.glide .glide__arrow--right {
+   right: -30px;
+}
+.glide .glide__arrow i {
+   font-size: 30px;
+}
+
+.glide2 {
+   position: relative;
+}
+
+.glide2 .glide__arrow {
+   position: absolute;
+   top: 50%;
+   background-color: transparent;
+}
+
+.glide2 .glide__arrow--left {
+   left: -30px;
+}
+
+.glide2 .glide__arrow--right {
+   right: -30px;
+}
+.glide2 .glide__arrow i {
+   font-size: 30px;
+}
+@media (max-width: 576px) {
+   .glide .glide__arrow--left {
+      left: 0;
+   }
+   .glide .glide__arrow--right {
+      right: 0;
+   }
+}
+@media (max-width: 576px) {
+   .glide2 .glide__arrow--left {
+      left: 0;
+   }
+   .glide2 .glide__arrow--right {
+      right: 0;
+   }
+}
